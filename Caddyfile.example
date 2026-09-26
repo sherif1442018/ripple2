@@ -1,0 +1,6 @@
+# Copy this to Caddyfile on the production server and replace the hostname.
+# Caddy obtains and renews the public TLS certificate automatically.
+ripple.studio {
+  encode gzip zstd
+  reverse_proxy 127.0.0.1:3000
+}

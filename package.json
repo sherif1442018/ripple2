@@ -1,0 +1,35 @@
+{
+  "name": "ripple2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ripple — creative studio website. One idea. Endless impact.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gsap": "3.12.5",
+    "next": "16.3.5",
+    "nodemailer": "10.0.10",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.186.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.15",
+    "@types/nodemailer": "6.4.15",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/three": "0.169.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.5",
+    "typescript": "5.5.4"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
+  }
+}
